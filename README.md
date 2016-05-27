@@ -1,0 +1,1 @@
+This project was created in Yeoman with the gulp-angular generator 
