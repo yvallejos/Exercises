@@ -39,3 +39,9 @@ exports.errorHandler = function(title) {
     this.emit('end');
   };
 };
+
+exports.config = {
+  framework: 'jasmine',
+  seleniumAddress: 'http://http://localhost:3000/#/',
+  specs: ['test/test.js']
+};
